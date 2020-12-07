@@ -62,8 +62,10 @@ h3 {
     background-color: #121417;
     /* background-color: #16181D; */
     color: #fff;
-    padding: 2rem;;
+    padding: 2rem;
+    
 }
+
 
 .footer-last  {
     margin-bottom: 0rem;
@@ -76,11 +78,18 @@ h3 {
 }
 .footer-logo-text-sm {
     font-size: 1rem;
-    color: #d9382e;
+    /* color: #CCCCCC; */
+    color: #f49d00;
+
+    margin-top: 0.2rem;
+    /* color: #E88982; */
+    /* color: #d9382e; */
 }
 
 .footer a {
-    color: #f49d00;
+    /* color: #f49d00; */
+    color: #cccccc;
+
 }
 
 .footer ul {
