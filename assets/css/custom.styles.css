@@ -29,6 +29,10 @@ h3 {
     font-size: 18px;
 }
 
+/* #active {
+    color: #f49d00;
+} */
+
 .navbar-brand {
     font-weight: 600;
     font-size: 1.5rem;
@@ -67,7 +71,9 @@ h3 {
     color: #333333;
 }
 
-
+#about-section img {
+    width:100%;
+}
 
 
 
@@ -126,3 +132,4 @@ h3 {
 .footer-last a {
     color: #f49d00;
 }
+
