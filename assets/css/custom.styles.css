@@ -1,7 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #efefef;
-    color: #121417;
+    color: #333333;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -58,6 +58,19 @@ h3 {
     background-color: #121417;
 }
 
+
+.breadcrumb {
+    background-color: transparent;
+    padding: .75rem 0rem;
+}
+.breadcrumb-item a {
+    color: #333333;
+}
+
+
+
+
+
 .footer {
     background-color: #121417;
     /* background-color: #16181D; */
@@ -110,8 +123,6 @@ h3 {
     color: #ffffff;
 }
 
-.sub-footer a {
+.footer-last a {
     color: #f49d00;
-
 }
-
