@@ -10,6 +10,10 @@ h3, h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
 /* quick style classes  */
 .w600 {
     font-weight: 600;
@@ -42,12 +46,11 @@ h3, h2 {
 /* button  */
 .btn-primary {
     background-color: #f49d00;
-     color: #121417;
+    color: #121417;
     /* background-color: #333333;  */
     /* background-color: #d9382e; */
-   
-border: none;
-font-weight: 600;
+   border: none;
+   font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -56,7 +59,8 @@ font-weight: 600;
 }
 
 .footer {
-    background-color: #16181D;
+    background-color: #121417;
+    /* background-color: #16181D; */
     color: #fff;
     padding: 2rem;;
 }
