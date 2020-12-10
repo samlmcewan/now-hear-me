@@ -14,7 +14,13 @@ h3 {
     font-size: 2rem;
 }
 
+
+
 /* quick style classes  */
+.w400 {
+    font-weight: 400;
+}
+
 .w600 {
     font-weight: 600;
 }
@@ -22,6 +28,8 @@ h3 {
 .w700 {
     font-weight: 700;
 }
+
+
 
 /* navbar  */
 #navigation {
@@ -75,7 +83,9 @@ h3 {
     width:100%;
 }
 
-
+hr {
+    margin: 4rem 0;
+}
 
 .footer {
     background-color: #121417;
