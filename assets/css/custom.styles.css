@@ -150,18 +150,67 @@ hr {
 }
 
 .card {
-    border: none;
+    border: 0;
 }
 
+.card .hfe {
+    border: none;
+}
+.left-title {
+    margin-left: 5rem;
+}
 .hfe {
     padding: 6rem;
-    background-color: #efefef;
+    /* background-color: #efefef; */
+    border: none;
     
     /* border-radius: 20px; */
 }
 
 .hfe :nth-of-type(odd) {
     margin-right: 0.5rem;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+}
+.card-blog {
+    border: none;
+    overflow: hidden;
+}
+.card-blog:hover {
+    /* background-color: #efefef; */
+    background-color: #121417;
+   color: white;
+   cursor: pointer;
+}
+
+.blog-img-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.card-img-top {
+    overflow: hidden;
+}
+.card-blog img {
+    transition: transform .5s ease;
+}
+.card-blog img:hover {
+    transform: scale(1.05);
+    
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    
 }
 /* footer  */
 
