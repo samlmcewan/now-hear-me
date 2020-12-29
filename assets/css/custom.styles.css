@@ -212,6 +212,29 @@ ul li {
     padding: 0;
     
 }
+
+.dark-bg {
+    background-color: #16181d;
+    color: #ffffff;
+}
+
+.dark-bg a {
+    color: #f49d00;
+}
+
+.btn-faq {
+    background-color: #121417;
+    
+}
+
+.btn-link  {
+    color: #f49d00;
+
+}
+
+/* #accordian > .card:first-of-type {
+    border-radius: 50%;
+} */
 /* footer  */
 
 .footer {

@@ -1,0 +1,41 @@
+.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #EEE;
+    padding-left: 0;
+    font-size: 1.5rem;
+    color: #121417;
+    /* padding-top: 2rem; */
+ 
+}
+
+.form-control:focus {
+    border-color: #f49d00;
+    box-shadow: none;
+}
+
+label {
+    font-size: 1.5rem;
+}
+textarea {
+    resize: none;
+  }
+
+
+.form-dark {
+    background: transparent;
+    color: #ffffff;
+}
+
+.form-dark:focus {
+    background: transparent;
+    color: #ffffff;
+}
+
+.form-label-group label {
+    color: #ffffff;
+}
+
+.text-muted {
+    color: #ffffff!important;
+}
