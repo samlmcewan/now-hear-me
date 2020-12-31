@@ -298,6 +298,31 @@ ul li {
     align-items: center;
 }
 
+.logo-container-footer-mob {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.border-top-footer {
+    border-top: 2px solid white;
+}
+
+@media only screen and (max-width: 346px) {
+    .logo-container-footer {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 347px) {
+    .logo-container-footer-mob {
+        display: none;
+    }
+}
+
+
 .nes-footer {
     /* border-left: 2px solid white; */
     min-height: 100%;
