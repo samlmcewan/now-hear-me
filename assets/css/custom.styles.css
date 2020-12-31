@@ -61,7 +61,7 @@ p {
 
 /* navbar  */
 #navigation {
-    background-color: #16181D!important;
+    background-color: #121417!important;
     font-size: 18px;
 }
 
@@ -98,11 +98,19 @@ p {
     /* background-color: #d9382e; */
    border: none;
    font-weight: 600;
+   border-radius: 25px;
 }
 
 .btn-primary:hover {
     color: #f49d00;
     background-color: #121417;
+}
+
+ .btn-primary:focus, .btn-primary:active {
+    background-color: #f49d00 !important;
+    border-color: #f49d00 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #f49d00 !important;
+    color:#121417 !important;
 }
 
 
@@ -214,7 +222,7 @@ ul li {
 }
 
 .dark-bg {
-    background-color: #16181d;
+    background-color: #121417;
     color: #ffffff;
 }
 
@@ -223,7 +231,8 @@ ul li {
 }
 
 .btn-faq {
-    background-color: #121417;
+    /* background-color: ; */
+    border-bottom: 2px solid #f49d00;
     
 }
 
@@ -239,7 +248,7 @@ ul li {
 
 .footer {
     background-color: #121417;
-    /* background-color: #16181D; */
+    /* background-color: #121417; */
     color: #fff;
     padding: 2rem;
     
@@ -283,6 +292,20 @@ ul li {
     text-align: left;
 } */
 
+.logo-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nes-footer {
+    /* border-left: 2px solid white; */
+    min-height: 100%;
+}
+
+.border-right-footer {
+    border-right: 2px solid #ffffff;
+}
 
 .sub-footer {
     background-color: #121417;
@@ -292,3 +315,45 @@ ul li {
 .footer-last a {
     color: #f49d00;
 }
+
+/* 
+.pill {
+    border-radius: 250px;
+    border: 20px solid #f49d00;
+} */
+
+/* .footer-speech-bubble {
+    width: 100vw;
+    height: 25vh;
+    background-color: #ffffff;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+} */
+
+
+
+/* Accordian FAQ  */
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+/* 
+button[aria-expanded='true'] {
+    background-color: #f49d00;
+} */

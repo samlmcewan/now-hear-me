@@ -39,6 +39,9 @@
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
    
   </head>
   <body>
@@ -75,7 +78,7 @@
           <a class="nav-link" href="accessibility.html">Accessibility</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact-us-dark.html">Contact</a>
         </li>
       </ul>
       <!-- <form class="form-inline mt-2 mt-md-0">
@@ -85,37 +88,210 @@
     </div>
   </nav>
 </header>
-  <body class="dark-bg">
+  <body>
+    <main>
+      <section class="form-container dark-bg">
+        <form class="form-signin">
+          <div class="text-center mb-5">
+            <h1 class="w600 mb-3">Contact</h1>
+            <p>Read our <span><a href="#accordion">frequently asked questions</a></span> or use the form below to contact Now Hear Me.</p>
+          </div>
+
+          <div class="form-label-group">
+            <input type="email" id="inputEmail" class="form-control form-dark" placeholder="Email address" required autofocus>
+            <label for="inputEmail">Email address</label>
+          </div>
+
+          <div class="form-label-group">
+            <input type="text" id="inputName" class="form-control form-dark" placeholder="Name" required>
+            <label for="inputName">Name</label>
+          </div>
+
+
+          <div class="form-label-group">
+            <textarea type="input" id="inputMessage" class="form-control form-dark" placeholder="Message" rows="1" required data-autoresize></textarea>
+          
+            <label for="inputMessage">Message</label>
+          </div>
+
+          
+          <button id="btn-contact" class="btn btn-lg btn-primary btn-block mt-4" type="submit">Send Message</button>
+          <p class="mt-3 mb-3 text-muted text-center">Thank you for your message. We will respond within x working days.</p>
+        </form>
+
+      </section>
+
+      <section class="container mb-5">
+        <div class="row mt-5">
+          <div class="col-lg-9 mx-auto">
+            <h2 class="text-center w700 mb-5">Frequently Asked Questions</h2>
+              <!-- Accordion -->
+              <div id="accordionExample" class="accordion shadow">
+  
+                  <!-- Accordion item 1 -->
+                  <div class="card">
+                      <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+                          <h2 class="mb-0">
+                              <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link text-dark font-weight-bold collapsible-link">Question number one?</button>
+                          </h2>
+                      </div>
+                      <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+                          <div class="card-body p-5">
+                              <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          </div>
+                      </div>
+                  </div><!-- End -->
+  
+                  <!-- Accordion item 2 -->
+                  <div class="card">
+                      <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+                          <h2 class="mb-0">
+                              <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-dark font-weight-bold collapsible-link">Another FAQ?</button>
+                          </h2>
+                      </div>
+                      <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                          <div class="card-body p-5">
+                              <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          </div>
+                      </div>
+                  </div><!-- End -->
+  
+                  <!-- Accordion item 3 -->
+                  <div class="card">
+                      <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+                          <h2 class="mb-0">
+                              <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-dark font-weight-bold collapsible-link">Frequently asked question three?</button>
+                          </h2>
+                      </div>
+                      <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                          <div class="card-body p-5">
+                              <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          </div>
+                      </div>
+                  </div><!-- End -->
+
+                  <!-- Accordion item 4 -->
+                  <div class="card">
+                      <div id="headingFour" class="card-header bg-white shadow-sm border-0">
+                          <h2 class="mb-0">
+                              <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-dark font-weight-bold collapsible-link">The fourth FAQ?</button>
+                          </h2>
+                      </div>
+                      <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample" class="collapse">
+                          <div class="card-body p-5">
+                              <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                          </div>
+                      </div>
+                  </div><!-- End -->
+
+                  <!-- Accordion item 5 -->
+                  <div class="card">
+                    <div id="headingFive" class="card-header bg-white shadow-sm border-0">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-dark font-weight-bold collapsible-link">Number five: Frequently asked question?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-5">
+                            <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+  
+              </div><!-- End -->
+          </div>
+      </div>
+      </section>
+
+    </main>
+    <footer>
+ 
+      
+      
+      
+      
+      <div class="container-fluid footer mt-5 p-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 d-none d-md-block">
+              <h4>Site Links</h4>
+              <ul>
+                      <li><a href="">Accessibility</a></li>
+                      <li><a href="">Privacy</a></li>
+                      <li><a href="">Terms and Conditions</a></li>
+                      <li><a href="">Freedom of information</a></li>
+                      <li><a href="">Site Map</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <h4>Related Sites</h4>
+                      <ul>
+                              <li><a href="" target="_blank">Lorem ipsum</a></li>
+                              <li><a href="" target="_blank">dolor sit amet</a></li>
+                              <li><a href="" target="_blank">consectetur adipisicing</a></li>
+                              <li><a href="" target="_blank">Tempora neque</a></li>
+                              <li><a href="">sed id error at</a></li>
+                              <li><a href=""> quis quibusdam </a></li>
+                              <li><a href="" target="_blank">corporis sint vel </a></li>
+                      </ul>
+              </div>
+              
+              <div class="col-md-2 d-none d-md-block">
+                  <h4>Social</h4>
+                  <ul>
+                      <li><a href=""><i class="fab fa-twitter mr-1"></i>Twitter</a></li>
+                      <li><a href=""><i class="fab fa-facebook-f mr-1"></i>Facebook</a></li>
+                      <li><a href=""><i class="fab fa-vimeo-v mr-1"></i>Vimeo</a></li>
+                      <li><a href=""><i class="fab fa-youtube mr-1"></i>YouTube</a></li>
+                </ul>
+                
+              </div>
+
+              <div class="col-md-4 logo-container-footer ">
+                
+                 
+                  <div class="text-center border-right-footer pr-3">
+                    <img src="assets/brand/NowHearMeLogo.png" width="80" height="40" class="clearfix mb-2  text-center" alt="Now Hear Me logo" loading="lazy">
+                    <p class="w700 footer-logo-text text-left">NOW HEAR ME<br /><span class="footer-logo-text-sm w700 float-right">it's my right<br>to speak</span></p>
+
+                  </div>
+                    
+                 
+                 <div class="" >
+                  <img src="assets/images/logo/nesWhite.svg" class="float-left pl-3 nes-footer">
+                 </div>
+                    
+    
+                  
+
+               
+                
+              </div>
+      
+              
+      
+          </div> <!-- /.row -->
+    
+        </div>
+  
+      </div>
+    
+  </footer>
+    <div class="sub-footer">
+      <div class="container p-3">
+        <p class="float-right footer-last"><a href="#">Back to top</a></p>
+          <p class="footer-last">&copy; 2021 Now Hear Me <!--&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>--> </p>
+      </div>
+    </div>
+      
+      
 
     
-      <form class="form-signin">
-        <div class="text-center mb-4">
-          <h1 class="w600 mb-3">Contact</h1>
-          <p>Read our <span><a href="#accordion">frequently asked questions</a></span> or use the form below to contact Now Hear Me.</p>
-        </div>
-
-        <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control form-dark" placeholder="Email address" required autofocus>
-          <label for="inputEmail">Email address</label>
-        </div>
-
-        <div class="form-label-group">
-          <input type="text" id="inputName" class="form-control form-dark" placeholder="Name" required>
-          <label for="inputName">Name</label>
-        </div>
-
-
-        <div class="form-label-group">
-          <textarea type="input" id="inputMessage" class="form-control form-dark" placeholder="Message" rows="1" required data-autoresize></textarea>
-        
-          <label for="inputMessage">Message</label>
-        </div>
-
-        
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Send Message</button>
-        <p class="mt-5 mb-3 text-muted text-center">Thank you for your message! We will respond in x working days.</p>
-      </form>
-    
+      
+ 
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>      
 <script src="/assets/js/contact-form-custom.js"></script>
 </body>
 </html>
