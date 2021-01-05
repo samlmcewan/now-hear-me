@@ -5,7 +5,7 @@ body {
     color: #333333;
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 h3, h2 {
@@ -73,12 +73,22 @@ p {
     font-size: 18px;
 }
 
-/* #active {
+#active {
     color: #f49d00;
+    border-bottom: 2px solid #f49d00;
+}
+
+/* .navbar-dark .navbar-nav .nav-link:focus {
+    border-bottom: ;
 } */
 
+
+.nav-item {
+    padding-right: .5rem;
+}
+
 .navbar-brand {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5rem;
 }
 
@@ -96,6 +106,9 @@ p {
     width: 100%;
 }
 
+.about-section-index {
+
+}
 
 
 /* button  */
@@ -106,7 +119,11 @@ p {
     /* background-color: #d9382e; */
    border: none;
    font-weight: 600;
-   border-radius: 25px;
+   border-radius: 0px;
+}
+
+.btn-secondary {
+    border-radius: 0px;
 }
 
 .btn-primary:hover {
@@ -291,7 +308,18 @@ ul li {
 .footer-last  {
     margin-bottom: 0rem;
     padding-bottom: 0rem;
+    font-size: 1.25rem;
 }
+
+/* #back-to-top::after {
+    content: '\f106';
+    font-family: 'FontAwesome';
+    font-size: 1.25rem;
+    padding-left: .5rem;
+    color: #f49d00;
+
+
+} */
 
 .footer-logo-text {
     font-size: 1.5rem;
@@ -318,6 +346,41 @@ ul li {
     list-style-type: none;
 }
 
+.mob-footer-accordian {
+    background-color: #121417;
+    font-size: 1.25rem;
+    
+}
+
+.mob-footer-accordian a {
+    color: #ffffff;
+    /* text-decoration: underline; */
+}
+
+#footer-accordian-header {
+    background-color: #121417;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+    font-size: 1.5rem;
+
+}
+
+#footer-accordian-header:focus {
+    outline: none;
+  
+}
+
+.f-125 {
+    font-size: 1.25rem;
+}
+
+
+.panel-body a {
+    color: #cccccc;
+
+}
+
 
 /* .footer ul li {
     list-style-type: disc;
@@ -327,7 +390,7 @@ ul li {
 
 .logo-container-footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -341,6 +404,14 @@ ul li {
 .border-top-footer {
     border-top: 2px solid white;
 }
+
+@media only screen and (max-width: 535px) {
+    .logo-container-footer {
+        justify-content: center;
+    }
+}
+
+/* iphone 5/SE column logos in footer  */
 
 @media only screen and (max-width: 346px) {
     .logo-container-footer {
@@ -356,6 +427,8 @@ ul li {
 }
 
 
+
+
 .nes-footer {
     /* border-left: 2px solid white; */
     min-height: 100%;
@@ -368,6 +441,7 @@ ul li {
 .sub-footer {
     background-color: #121417;
     color: #ffffff;
+    border-top: 2px solid #ffffff30;
 }
 
 .footer-last a {
@@ -415,3 +489,10 @@ ul li {
 button[aria-expanded='true'] {
     background-color: #f49d00;
 } */
+
+
+body a {
+    color: #BF510D;
+    /* text-decoration: underline; */
+    /* color: #ccc; */
+}
