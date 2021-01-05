@@ -48,13 +48,13 @@ p {
 .white-round {
     background-color: #fff;
     padding: 2%;
-    border-radius: 1%;
+    /* border-radius: 1%; */
 }
 
 .rounded-container-gray {
     padding-bottom: 2rem;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+    /* border-bottom-left-radius: 20px; */
     background-color: #efefef;
 }
 
@@ -144,7 +144,7 @@ p {
     padding: .75rem 0rem;
 }
 .breadcrumb-item a {
-    color: #333333;
+    /* color: #333333; */
 }
 
 #about-section img {
@@ -496,3 +496,15 @@ body a {
     /* text-decoration: underline; */
     /* color: #ccc; */
 }
+
+.jumbotron {
+    border-radius: 0px;
+}
+
+.card {
+    border-radius: 0px;
+}
+.card img {
+    border-radius: 0px;
+}
+
