@@ -246,6 +246,11 @@ hr {
     border-color: #333333;
 }
 
+.page-link:hover {
+    color: #BF510D;
+    
+}
+
 .page-item.active .page-link {
     background-color: #f49d00;
     border-color: #f49d00;
