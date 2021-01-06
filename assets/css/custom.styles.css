@@ -579,3 +579,31 @@ body a {
     border-radius: 0px;
 }
 
+.email-icon::before {
+    content: '\f0e0';
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 0.8rem; */
+    /* transform: translateY(-50%); */
+    /* display: table-cell; */
+    font-family: 'FontAwesome';
+    /* font-size: 1.1rem; */
+    font-weight: 400;
+    /* margin-left: .25rem; */
+    margin-right: .75rem;
+}
+
+.phone-icon::before {
+    content: '\f095';
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 0.8rem; */
+    /* transform: translateY(-50%); */
+    /* display: table-cell; */
+    font-family: 'FontAwesome';
+    /* font-size: 1.1rem; */
+    font-weight: 400;
+    /* margin-left: .25rem; */
+    margin-right: .75rem;
+    color: #BF510D;
+}
