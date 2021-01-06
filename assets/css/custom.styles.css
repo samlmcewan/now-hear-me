@@ -5,7 +5,7 @@ body {
     color: #333333;
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h3, h2 {
@@ -18,6 +18,11 @@ h3 {
 
 p {
     /* margin-bottom: 1rem; */
+}
+
+a:hover {
+    color: #BF510D;
+
 }
 
 
@@ -92,11 +97,63 @@ p {
     font-size: 1.5rem;
 }
 
+
+
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 
 }
 
+
+/* Left Sidebar Navigation */
+
+.left-sidebar {
+    /* background-color: #121417; */
+    height: fit-content;
+    color: #BF510D;
+    /* color: #ffffff; */
+    padding: 0;
+    /* position: fixed;
+    display: block; */
+}
+
+.ul-left-sidebar {
+    margin-bottom: 0;
+}
+
+.left-sidebar ul li {
+    /* margin-left: 0.5rem; */
+    /* border: 1px solid #ffffff30; */
+    margin-bottom: 0;
+
+}
+
+
+
+
+#left-sidebar-back {
+    /* margin-top: 0.5rem; */
+    font-size: 1.75rem;
+    margin-left: 0;
+}
+
+#left-sidebar-back::before {
+    content: '\f104';
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 0.8rem; */
+    /* transform: translateY(-50%); */
+    /* display: table-cell; */
+    font-family: 'FontAwesome';
+    /* font-size: 1.1rem; */
+    font-weight: 400;
+    /* margin-left: .25rem; */
+    margin-right: .75rem;
+}
+
+.left-sidebar {
+    --blue: #121417;
+}
 .blog-card h3 {
     margin-top: 1.25rem;
     margin-bottom: 1rem;
