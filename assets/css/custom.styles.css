@@ -608,4 +608,32 @@ body a {
     color: #BF510D;
 }
 
+/* site map list styles */
 
+.level-1 {
+    text-decoration: underline;
+    
+}
+
+.level-1 > li {
+    list-style-type: disc;  
+    margin-top: 30px;
+}
+
+.level-2 {
+    padding-inline-start: 40px;
+    text-decoration: underline;
+}
+
+.level-2 > li {
+    list-style-type: circle;
+}
+
+.level-3 {
+    padding-inline-start: 40px;
+    text-decoration: underline;
+}
+
+.level-3 > li {
+    list-style-type: square;
+}
