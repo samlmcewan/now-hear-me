@@ -2,10 +2,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     /* background-color: #efefef; */
     background-color: #fff;
-    color: #333333;
+    color: #121417;
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 1.25rem;
+    padding-top: 4rem;
 }
 
 h1 {
@@ -230,6 +231,13 @@ hr {
     position: absolute;
     min-width: 100%;
     height: 32rem;
+}
+
+@media only screen and (max-width: 535px) {
+    .carousel-caption-body {
+        display: none;
+    }
+    
 }
 
 
@@ -643,4 +651,15 @@ body a {
 
 .recent-posts {
     color: #121417;
+}
+
+
+
+.site-info {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+* {
+    border: 1px solid red;
 }
